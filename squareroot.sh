@@ -1,10 +1,4 @@
-#!/bin/bash
-
-function isprime(){
-
-aw
-echo $sqrt
-
-}
-res=$(isprime 45)
-echo $res;
+#!/bin/bash 
+read -p "value " n
+square= awk "BEGIN { print sqrt($n);}"
+square=${square%.*}

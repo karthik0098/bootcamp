@@ -6,8 +6,8 @@ function myfun()
  
 
 }
-
-result=$(myfun 11)
+read -p "enter the value " x;
+result=$(myfun x)
 echo "square=$result"
 
 
